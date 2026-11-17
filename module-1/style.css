@@ -7,3 +7,13 @@ body {
 h1 {
   color: #2a636d;
 }
+.card {
+  background-color:#e6f0ff
+
+}
+nav a {
+  color: blue;
+}
+nav a:hover {
+  color: #6d402a;
+}
