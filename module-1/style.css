@@ -1,7 +1,15 @@
+:root {
+  --main: #2b6777;
+  --bg: #c8d8e4;
+  --text: #13292e;
+}
+
 body {
   font-family: "Firjar", Tahoma, sans-serif;
-  background-color: #f5f8f8;
-  color: #13292e;
+  font-size: 18 px;
+  line-height: 1.8;
+  background-color: var(--bg);
+  color: var(--text);
 }
 
 .firjar-arabFont {
@@ -14,11 +22,10 @@ body {
 }
 
 h1 {
-  color: #2a636d;
+  color: var(--main);
 }
 .card {
-  background-color:#e6f0ff
-
+  background-color: var(--card-bg);
 }
 nav a {
   color: blue;
