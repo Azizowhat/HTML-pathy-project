@@ -5,11 +5,14 @@
   box-sizing: border-box;
 }
 :root {
-  --main: #2b6777;
+  --main: #21292c;
   --bg: #c8d8e4;
   --text: #13292e;
 }
-
+header {
+  background: linear-gradient(135deg, #3a96a7, #64b8c6);
+  color: white;
+}
 body {
   font-family: "Firjar", Tahoma, sans-serif;
   font-size: 1 rem;
@@ -38,9 +41,19 @@ h1 {
   margin-bottom: 2rem;
   border-radius: 8px;
 }
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
 .main {
   max-width: 60rem;
   margin: 0 auto;
+}
+div {
+  overflow-x: auto;
 }
 nav a {
   color: blue;
