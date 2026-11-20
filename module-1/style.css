@@ -6,7 +6,7 @@
 
 body {
   font-family: "Firjar", Tahoma, sans-serif;
-  font-size: 18 px;
+  font-size: 1 rem;
   line-height: 1.8;
   background-color: var(--bg);
   color: var(--text);
@@ -25,7 +25,8 @@ h1 {
   color: var(--main);
 }
 .card {
-  background-color: var(--card-bg);
+  background-color: #c4c2e8;
+  width: 50%;
 }
 nav a {
   color: blue;
