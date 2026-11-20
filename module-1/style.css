@@ -1,7 +1,16 @@
 body {
-  font-family: Tahoma, sans-serif;
+  font-family: "Firjar", Tahoma, sans-serif;
   background-color: #f5f8f8;
   color: #13292e;
+}
+
+.firjar-arabFont {
+  font-family: "Firjar", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 h1 {
